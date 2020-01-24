@@ -15,6 +15,8 @@
 		F1692B8A23DA5287009F8FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1692B8823DA5287009F8FAF /* LaunchScreen.storyboard */; };
 		F1692B9523DA5287009F8FAF /* ChatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1692B9423DA5287009F8FAF /* ChatterTests.swift */; };
 		F1692BA023DA5288009F8FAF /* ChatterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1692B9F23DA5288009F8FAF /* ChatterUITests.swift */; };
+		F1692BAE23DA634C009F8FAF /* Chatt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1692BAD23DA634C009F8FAF /* Chatt.swift */; };
+		F1692BB023DA63E6009F8FAF /* ChattTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1692BAF23DA63E6009F8FAF /* ChattTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F1692B9B23DA5288009F8FAF /* ChatterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1692B9F23DA5288009F8FAF /* ChatterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterUITests.swift; sourceTree = "<group>"; };
 		F1692BA123DA5288009F8FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1692BAD23DA634C009F8FAF /* Chatt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatt.swift; sourceTree = "<group>"; };
+		F1692BAF23DA63E6009F8FAF /* ChattTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F1692B7F23DA5287009F8FAF /* SceneDelegate.swift */,
 				F1692B8123DA5287009F8FAF /* ViewController.swift */,
 				F1692B8323DA5287009F8FAF /* Main.storyboard */,
+				F1692BAD23DA634C009F8FAF /* Chatt.swift */,
+				F1692BAF23DA63E6009F8FAF /* ChattTableCell.swift */,
 				F1692B8623DA5287009F8FAF /* Assets.xcassets */,
 				F1692B8823DA5287009F8FAF /* LaunchScreen.storyboard */,
 				F1692B8B23DA5287009F8FAF /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1692BB023DA63E6009F8FAF /* ChattTableCell.swift in Sources */,
 				F1692B8223DA5287009F8FAF /* ViewController.swift in Sources */,
 				F1692B7E23DA5287009F8FAF /* AppDelegate.swift in Sources */,
+				F1692BAE23DA634C009F8FAF /* Chatt.swift in Sources */,
 				F1692B8023DA5287009F8FAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
